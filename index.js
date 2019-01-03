@@ -6,16 +6,14 @@ function scuberGreetingForFeet(value) {
     return "I will gladly take your thirty bucks."
   }
   else {
-    return "No"
+    return "No can do."
   }
 };
-
 function ternaryCheckCity(city) {
   let nyc = "NYC";
   const message = city === nyc ? "Ok, sounds good." : "No go.";
   return message;
 };
-
 function switchOnCharmFromTip(tip) {
   let response;
   switch (tip) {
